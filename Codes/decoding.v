@@ -13,7 +13,7 @@ reg [6:0] loop;
 reg first_cycle; 
 always @(posedge Clock or posedge reset)
 begin
-    if(reset == 1) begin    //Resetting all the parameters to default values when reset is high
+    if(reset == 1) begin    
         i <= 0;
         j <= 0;
         first_cycle <= 1;
