@@ -19,7 +19,7 @@ reg signed [7:0] matC [7:0][7:0]; //To store the result
 
 integer signed i,j;  //loop indices
 reg first_cycle;    //indicates its the first clock cycle after Enable went High.
-reg end_of_div;    //indicates division has ended.
+reg end_of_div;    
 
 //Quantization
 always @(posedge Clock or posedge reset)    
