@@ -7,7 +7,7 @@ reg Clock,reset, Enable;
 wire done;
 reg [8:0] mat1 [7:0][7:0];
 integer i,j;
-parameter Clock_period = 10;    //Change clock period here. 
+parameter Clock_period = 10;   
 
 initial
 begin
